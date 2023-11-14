@@ -3,10 +3,9 @@
 ## Requirements:
 - Python (recommended 3.10 or newer)
 - 'vtk' module
-- A .ply polygon model (this repo comes with sample .ply files for you to use (courtesy of [zzubnik](https://cults3d.com/en/users/zzubnik/3d-models) and [ozylot](https://cults3d.com/en/users/ozylot)))
+- A .ply polygon model (this repo comes with sample .ply files for you to use, credits are located at the bottom)
 
-Make sure the .ply model is located in the same file as the Python file!
-[This website](https://3d-convert.com/en/convert/stl-to-ply.html) can be used to convert .stl models into .ply models
+[This website](https://3d-convert.com/en/convert/stl-to-ply.html) can be used to convert .stl models into .ply models.
 
 ## Keyboard controls:
 - "e": Exit application
@@ -24,3 +23,20 @@ Make sure the .ply model is located in the same file as the Python file!
 
 - Scroll wheel: Zoom in/out
 
+## Credits
+
+Courtesy to:
+
+- zzubnik for the teapot (https://cults3d.com/en/users/zzubnik/3d-models)
+
+- Martin for the Endeavour space shuttle (https://www.printables.com/@Martin)
+
+- Matthias L for the low poly cat (https://www.printables.com/@MatthiasL)
+
+- Marvin for the ring toy (https://www.printables.com/@Marvin)
+
+- BP for the low poly wolf (https://www.printables.com/@BPmakesthings)
+
+- Thorin Oakenshield for the gear (https://www.printables.com/@ThorinOakenshield)
+
+- Bing AI for helping me remember how to create a 'Open file' window
