@@ -1,7 +1,11 @@
 # 3D model renderer in Python
 
 import vtk
+import tkinter as tk
+from tkinter import filedialog
 
+root = tk.Tk()
+root.withdraw()
 
 # Initialise an object (at this point the object has no values so the object is nothing)
 
@@ -21,8 +25,14 @@ reader = vtk.vtkPLYReader()
 
 # Load the polygon file
 
-file = input("Enter the name of the PLY file to load: ")
-reader.SetFileName(file)
+path = filedialog.askopenfilename(filetypes=[("Polygon models", "*.ply")])
+
+# If the user cancels the operation, an empty string is returned.
+# "if not path" can be used in this scenario to prevent errors.
+if not path:
+    quit()
+
+reader.SetFileName(path)
 reader.Update()
 vtkobject.DeepCopy(reader.GetOutput())
 
