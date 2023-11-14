@@ -3,9 +3,10 @@
 ## Requirements:
 - Python (recommended 3.10 or newer)
 - 'vtk' module
-- A .ply model (you can convert .stl files into .ply using [this website](https://3d-convert.com/en/convert/stl-to-ply.html))
+- A .ply polygon model (this repo comes with a sample .ply file for you to use (courtesy of [zzubnik](https://cults3d.com/en/users/zzubnik/3d-models)))
 
 Make sure the .ply model is located in the same file as the Python file!
+[This website](https://3d-convert.com/en/convert/stl-to-ply.html) can be used to convert .stl models into .ply models
 
 ## Keyboard controls:
 - "e": Exit application
@@ -15,8 +16,6 @@ Make sure the .ply model is located in the same file as the Python file!
 - "r": Reset camera
 
 - "s": View actors as surfaces
-
-- "u": User-defined function (usually opens an interactor for entering commands)
 
 - "w": View actors as wireframes
 
