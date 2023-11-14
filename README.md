@@ -3,7 +3,7 @@
 ## Requirements:
 - Python (recommended 3.10 or newer)
 - 'vtk' module
-- A .ply polygon model (this repo comes with a sample .ply file for you to use (courtesy of [zzubnik](https://cults3d.com/en/users/zzubnik/3d-models)))
+- A .ply polygon model (this repo comes with sample .ply files for you to use (courtesy of [zzubnik](https://cults3d.com/en/users/zzubnik/3d-models) and [ozylot](https://cults3d.com/en/users/ozylot)))
 
 Make sure the .ply model is located in the same file as the Python file!
 [This website](https://3d-convert.com/en/convert/stl-to-ply.html) can be used to convert .stl models into .ply models
