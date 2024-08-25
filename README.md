@@ -6,7 +6,7 @@
 > This is because I am (eventually) planning on recompiling the project **again** but with additional support for
 > Windows x86, Linux x64 and Linux x86.
 
-## Requirements:
+### Requirements:
 - Python (recommended 3.10 or newer)
 - 'vtk' module for 64 bit installations
 - 'panda3d' module for 32-bit installations
@@ -18,7 +18,10 @@
 
 [This website](https://3d-convert.com/en/convert/stl-to-ply.html) can be used to convert .stl models into .ply models.
 
-## Controls (vtk renderer):
+# Controls
+> [!IMPORTANT]
+> The controls below are hardcoded by the renderer and cannot be changed.
+### Controls (vtk renderer):
 - "e": Exit application
 
 - "f": Fly to cursor (if cursor is pointing to the model)
@@ -33,7 +36,7 @@
 
 - Scroll wheel: Zoom in/out
 
-## Controls (panda3d renderer):
+### Controls (panda3d renderer):
 The Panda3D renderer only makes use of the mouse for controls.
 
 - Left click: Pan left and right
@@ -44,7 +47,7 @@ The Panda3D renderer only makes use of the mouse for controls.
 
 - Right click + Middle click: Roll the point of view around the view axis
 
-## Credits
+# Credits
 
 Courtesy to:
 
