@@ -1,4 +1,4 @@
-# pyrender - 3D Model renderer in Python using vtk
+# pyrender - 3D Model renderer in Python
 
 > [!NOTE]
 > I have made the decision to remove the compiled release of pyrender.
@@ -8,7 +8,8 @@
 
 ## Requirements:
 - Python (recommended 3.10 or newer)
-- 'vtk' module
+- 'vtk' module for 64 bit installations
+- 'panda3d' module for 32-bit installations
 - A .ply polygon model (this repo comes with lots of sample .ply files for you to use, credits are located at the bottom)
   > Trying to figure out how to place all these files into the repository when some of the files are at least 2 times larger than the 25MB limit
   > imposed on Github's website was an absolute pain in the ass.
@@ -17,7 +18,7 @@
 
 [This website](https://3d-convert.com/en/convert/stl-to-ply.html) can be used to convert .stl models into .ply models.
 
-## Keyboard controls:
+## Controls (vtk renderer):
 - "e": Exit application
 
 - "f": Fly to cursor (if cursor is pointing to the model)
@@ -28,10 +29,12 @@
 
 - "w": View actors as wireframes
 
-## Mouse controls:
 - Left click: Rotate camera
 
 - Scroll wheel: Zoom in/out
+
+## Controls (panda3d renderer):
+- Coming soon!
 
 ## Credits
 
@@ -50,6 +53,8 @@ Courtesy to:
 - Thorin Oakenshield for the gear (https://www.printables.com/@ThorinOakenshield)
 
 - Bing AI for helping me remember how to create a 'Open file' window
+
+- ChatGPT for helping me understand how Panda3D works
 
 - 3DJG for the platonic solids (https://www.printables.com/@3DJG_199655)
 
