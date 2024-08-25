@@ -1,4 +1,10 @@
 # 3D model renderer in Python
+# This version uses the vtk module - NOT FOR 32-bit systems!
+
+from struct import calcsize
+CHK32 = calcsize("P") * 8
+if CHK32 == 32:
+    raise SystemError("You are running a 32-bit operating system! VTK cannot run on 32-bit operating systems! This program will now terminate.")
 
 import vtk
 import tkinter as tk
