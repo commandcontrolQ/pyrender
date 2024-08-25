@@ -1,5 +1,11 @@
 # pyrender - 3D Model renderer in Python using vtk
 
+> [!NOTE]
+> I have made the decision to remove the compiled release of pyrender.
+>
+> This is because I am (eventually) planning on recompiling the project **again** but with additional support for
+> Windows x86, Linux x64 and Linux x86.
+
 ## Requirements:
 - Python (recommended 3.10 or newer)
 - 'vtk' module
