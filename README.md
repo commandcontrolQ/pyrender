@@ -34,7 +34,15 @@
 - Scroll wheel: Zoom in/out
 
 ## Controls (panda3d renderer):
-- Coming soon!
+The Panda3D renderer only makes use of the mouse for controls.
+
+- Left click: Pan left and right
+
+- Right click: Move forwards and backwards
+
+- Middle click: Rotate around the application origin
+
+- Right click + Middle click: Roll the point of view around the view axis
 
 ## Credits
 
