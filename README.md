@@ -1,11 +1,9 @@
 # pyrender - 3D Model renderer in Python
 
 > [!WARNING]
-> The 32-bit Windows compile of PyRender has not been released as it is currently **not working**.
+> The 32-bit Windows compile of PyRender has not been released yet.
 >
-> Currently, the issue preventing PyRender from working is the fact that *the program, once compiled, cannot find any display pipes.* This may be due to incompatibilities between PyInstaller and Panda3D.
->
-> **Found a way to compile it and get it working?** Please contact me from [here](https://kooper.neocities.org/contact)
+> This is because Panda3D applications must be compiled using their own tool, instead of using something like PyInstaller.
 
 ### Requirements:
 - Python (recommended 3.10 or newer)
