@@ -1,6 +1,16 @@
 # pyrender - 3D Model renderer in Python
 
-> [!CAUTION]
+> [!WARNING]
+> This program can be very resource-intensive depending on the model used.
+>
+> There are no definitive **hardware requirements**, however the following are recommended:
+> - Windows users should use at least Windows 10 (Extensions such as VxKex and the OneCore API have not been tested, use at your own discretion)
+> - Linux (Debian) users should use at least Debian 11 (in theory backporting might work however it has not been tested)
+> - AMD Ryzen 3 3000 series / Intel Core i3 5th Gen
+> - Integrated Graphics **minimum**
+> - At least 4GB of RAM
+
+> [!NOTE]
 > The 32-bit Windows compile of PyRender has not been released yet.
 >
 > This is because Panda3D applications must be compiled using their own tool, instead of using something like PyInstaller. Unfortunately, even with this information, I have not been able to successfuly compile PyRender.
