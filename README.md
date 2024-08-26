@@ -1,19 +1,17 @@
 # pyrender - 3D Model renderer in Python
 
-> [!WARNING]
+> [!CAUTION]
 > The 32-bit Windows compile of PyRender has not been released yet.
 >
-> This is because Panda3D applications must be compiled using their own tool, instead of using something like PyInstaller.
+> This is because Panda3D applications must be compiled using their own tool, instead of using something like PyInstaller. Unfortunately, even with this information, I have not been able to successfuly compile PyRender.
+>
+> If you have been able to successfuly compile the Panda3D-based PyRender for 32-bit systems, please contact me.
 
 ### Requirements:
 - Python (recommended 3.10 or newer)
 - 'vtk' module for 64 bit installations
 - 'panda3d' module for 32-bit installations
 - A .ply polygon model (this repo comes with lots of sample .ply files for you to use, credits are located at the bottom)
-  > Trying to figure out how to place all these files into the repository when some of the files are at least 2 times larger than the 25MB limit
-  > imposed on Github's website was an absolute pain in the ass.
-  >
-  > No, I didn't use `git` and wont use `git`. `git` syntax really hurts my brain.
 
 [This website](https://3d-convert.com/en/convert/stl-to-ply.html) can be used to convert .stl models into .ply models.
 
